@@ -4,7 +4,8 @@ Soraya's Cameras is an application of my three favourite cameras: Nikon D7500, G
 
 ## Getting Started
 
-Users can begin by downloading a zip file of this project and opening it on http://localhost:3032/ in a browser of their choosing.
+Users can begin by downloading a zip file of this project, navigating to the root directory of the project, and issuing the command npm start. Once issuing the command npm start from the root directory of the nodejs project, users can open the project on http://localhost:3032/ in a browser of their choosing.
+
 
 ## Built With
 
