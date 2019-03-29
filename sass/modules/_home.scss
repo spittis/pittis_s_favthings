@@ -1,74 +1,91 @@
-
-* { border: 0; margin: 0; padding: 0; box-sizing: border-box; }
-html { position: relative; min-height: 100%; }
-
-body { 
-    background: url(/images/dark-honeycomb.png) repeat $bg-color; 
-    color: $text-color; 
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+html 
+{ 
+    position: relative; 
+    min-height: 100%; 
 }
 
-h1, h2, h3, h4, h5, h6 { 
-    font-family: 'Permanent Marker', cursive;
+body 
+{ 
+    background: url(/images/carbon_fibre.png) repeat $bg-color; 
+    font-family: 'helvetica';
+    margin-bottom: 60px;
 }
 
-header { background-color: $bg-color; }
-
-nav {
-    a { float: right; }
-    h1 { 
-        font-size: 2rem;
-        padding: 8px 20px;
-        display: inline-block; 
-    }
-
-    a { font-size: 1.75rem; padding: 10px 20px 0 0; }
-    a:hover { color: rgb(101, 184, 108); }
+h1, h2, h3, h4, h5, h6 
+{ 
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 2em;
 }
 
-main { padding: 12px 20px; }
+header 
+{ 
+    background-color: $bg-color; 
+}
+
+nav 
+{
+background: $dark-grey;
+text-align: center;
+}
+
+#logo {
+    width: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
 
 footer { 
-    background-color: $bg-color; 
+    background-color: $dark-grey; 
     position: absolute; 
     bottom: 0; 
     width: 100%; 
     height: 50px;
     text-align: center;
     padding-top: 1rem;
+    color: white;
 }
 
-#heroes { text-align: center; margin-top: 20px; }
-
-.hero-container { 
-    border-radius: 1rem; 
-    overflow: hidden; 
-    display: inline-block; 
+#cameras 
+{ 
     text-align: center;
-    margin: 0 12px 20px;
-    border: 2px solid white;
-    background: $bg-color;
-
-    img { width: 100%; }
-
-    h3 { font-size: 1.5rem; padding: 8px;}
+    margin-top: 5%; 
 }
 
-.hero-container:last-of-type { margin-bottom: 120px; }
+// .camera-products { 
+//     border-radius: 1rem; 
+//     overflow: hidden; 
+//     display: inline-block; 
+//     text-align: center;
+//     margin: 0 12px 20px;
+//     border: 2px solid white;
+//     background: $bg-color;
 
-.marvel-logo { 
-    width: 200px; 
-    position: absolute; 
-    bottom: 40px; 
-    z-index: -1; 
-    left: 0; 
-    right: 0; 
-    display: block;
-    margin: 0 auto;
+//     img { width: 100%; }
+
+//     h3 { font-size: 1.5rem; padding: 8px;}
+// }
+
+.camera-products
+{
+    width: 33%;
+    float: left;
+    padding-bottom: 5%;
 }
+
+
+.camera-products img
+{
+    width: 80%;
+    border: 10px solid $yellow;
+    padding: 2%;
+}
+
+
 
 @media screen and (min-width: 1032px) {
-    .hero-container:last-of-type { margin-bottom: 20px; }
+    .camera-products:last-of-type { margin-bottom: 20px; }
 }
