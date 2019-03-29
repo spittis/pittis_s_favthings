@@ -4,7 +4,7 @@ Soraya's Cameras is an application of my three favourite cameras: Nikon D7500, G
 
 ## Getting Started
 
-Visit the site live on Heroku: https://pittis-soraya-heroku.herokuapp.com/
+Users can begin by downloading a zip file of this project and opening it on http://localhost:3032/ in a browser of their choosing.
 
 ## Built With
 
