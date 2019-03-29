@@ -1,0 +1,41 @@
+#cameradescription
+{
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+
+#cameraavatar
+{
+    width: 50%;
+    float: left;
+    padding-bottom: 5%;
+}
+
+#product-img
+{
+    width: 80%;
+    padding: 10%;
+}
+
+#cameradescription p
+{
+    color: white;
+}
+
+//phone
+
+@media (max-width: 599px) {
+
+    #cameradescription
+{
+    width: 100%;
+}
+
+#cameraavatar
+{
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+}
