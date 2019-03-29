@@ -30,7 +30,7 @@ router.get('/:camera', function(req, res, next) { //the hero thing doesn't reall
       console.log(err);
     } else {
       console.log(result);
-      res.render('bio', { bioData: result[0] }); //result comes back in an array
+      res.render('description', { descriptionData: result[0] }); //result comes back in an array
     }
     });
   });
